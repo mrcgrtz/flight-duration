@@ -20,7 +20,7 @@
   "scripts": {
     "analyse": "phpstan analyse --memory-limit=192M --configuration phpstan.neon",
     "fix": "php-cs-fixer fix --allow-risky=yes",
-    "lint": "phplint",
+    "lint": "phplint lint",
     "start": "php -S localhost:8000 -t public"
   },
   "require": {
