@@ -80,7 +80,7 @@ class FlightDuration
 		if (empty($from) || empty($to) || empty($departureAirport) || empty($destinationAirport)) {
 			throw new InvalidArgumentException('All parameters are required.');
 		}
-		if (!is_string($from) || !is_string($to) || !is_string($departureAirport) || !is_string($destinationAirport)) {
+		if (!\is_string($from) || !\is_string($to) || !\is_string($departureAirport) || !\is_string($destinationAirport)) {
 			throw new InvalidArgumentException('All parameters must be strings.');
 		}
 		if (!preg_match('/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}$/', $from)) {

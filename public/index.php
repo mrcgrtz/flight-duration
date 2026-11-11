@@ -2,9 +2,9 @@
 
 use Marcgoertz\FlightDuration;
 use OpenApi\Attributes as OA;
-use Psr\Http\Server\RequestHandlerInterface as RequestHandler;
 use Psr\Http\Message\ResponseInterface as Response;
 use Psr\Http\Message\ServerRequestInterface as Request;
+use Psr\Http\Server\RequestHandlerInterface as RequestHandler;
 use Slim\Factory\AppFactory;
 
 require __DIR__ . '/../vendor/autoload.php';
