@@ -110,7 +110,7 @@ The API returns a JSON object with three properties:
 
 ### Requirements
 
-- PHP 8.0 or higher
+- PHP 8.5 or higher
 - Composer
 
 ## Credits
