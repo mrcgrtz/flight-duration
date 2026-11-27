@@ -8,7 +8,7 @@ $config = new PhpCsFixer\Config();
 return $config
 	->setRules([
 		'@PSR12' => true,
-		'@PHP81Migration' => true,
+		'@PHP8x5Migration' => true,
 		// additional rules
 		'align_multiline_comment' => true,
 		'array_indentation' => true,
